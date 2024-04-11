@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.toggle{
+    width: 6rem;
+    height: 6rem;
+    background-color: #eee8e1;
+    position: absolute;
+    top: 7rem;
+    right: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6rem;
+    cursor: pointer;
+}
+.toggle i{
+    font-size: 4rem;
+    border-radius: 4rem;
+    color: #777;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(244, 237, 228);
+    height: 30vmin;
+    width: 50vmin;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 2rem 2rem rgb(182, 179, 179);
+}
+.card-type{
+    position: absolute;
+    top:2.5rem ;
+    left: 2.5rem;
+    font-size: 2rem;
+    letter-spacing: .1rem;
+}
+.card-map{
+    height: 20rem;
+    width: 35rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    opacity: 0.4;
+
+}
+.card-chip{
+    height: 6rem;
+    width: 6.5rem;
+    position: absolute;
+    top: 5.5rem;
+    left: 2.5rem;
+}
+.card-num{
+    position: absolute;
+    top: 12.5rem;
+    left: 2.5rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+.card-text{
+    position: absolute;
+    top: 15.2rem;
+    left: 2.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+.card-date{
+    position: absolute;
+    top: 17rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+.card-holder{
+    position: absolute;
+    top: 19rem;
+    left: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+.orange-circle{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 6rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2.5rem;
+    background-color: orange;
+    opacity: 0.7;
+}
+.red-circle{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 6rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 6rem;
+    background-color: red;
+}
+.container.dark{
+    background-color: #262626;
+    color: white;
+}
+.container.dark .card{
+    background-color: #353535;
+}
+.container.dark .toggle{
+    background-color: #464646;
+}
+.container.dark .toggle i{
+    color:#ddd ;
+}
